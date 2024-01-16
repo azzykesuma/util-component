@@ -1,1 +1,1 @@
-export * from './Components/TestComponent/TestComponent.jsx';
+export * from './Components/TestComponent';
