@@ -1,7 +1,7 @@
 {
   "name": "util-component",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,5 +24,23 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "main.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azzykesuma/util-component.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "azzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzykesuma/util-component/issues"
+  },
+  "homepage": "https://github.com/azzykesuma/util-component#readme",
+  "publishConfig": {
+    "@azzykesuma:registry": "https://npm.pkg.github.com"
   }
 }
