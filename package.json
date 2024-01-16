@@ -1,6 +1,6 @@
 {
   "name": "util-component",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,9 +12,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "files": ["dist"],
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -24,11 +27,17 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "rollup": "^4.9.5",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "main.tsx",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/azzykesuma/util-component.git"
