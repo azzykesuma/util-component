@@ -1,3 +1,8 @@
+import { useState } from "react"
+
 export const TestComponent = () =>  {
-  console.log('test')
+  const [testState, setTestState] = useState('tecwebfewst')
+  return (
+    <div>{testState}</div>
+  )
 }
