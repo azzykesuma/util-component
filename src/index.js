@@ -1,2 +1,2 @@
 export {TestComponent} from "./Components/TestComponent.jsx"
-export {anotherTestComponent} from "./Components/anotherTestComponent.jsx"
+export {AnotherTestComponent} from "./Components/AnotherTestComponent.jsx"

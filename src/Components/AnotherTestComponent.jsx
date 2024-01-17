@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function AnothertTestComponent() {
+export const AnotherTestComponent = () => {
     const [content, setContent] = useState("wedefe") // [state, setState
   return (
     <div>
@@ -9,4 +9,3 @@ function AnothertTestComponent() {
   )
 }
 
-export default AnothertTestComponent
