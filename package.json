@@ -1,6 +1,6 @@
 {
   "name": "util-component",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "scripts": {
     "build": "webpack",
     "build:dev": "webpack --mode=development",
@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0"
   },
   "files": [
-    "src/**/*"
+    "dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -65,5 +65,12 @@
   "homepage": "https://github.com/azzykesuma/util-component#readme",
   "publishConfig": {
     "@azzykesuma:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": "> 0.25%, not dead"
 }
