@@ -1,9 +1,3 @@
-function TestComponent() {
-  return (
-    <div>
-        test
-    </div>
-  )
+export const TestComponent = () =>  {
+  console.log('test')
 }
-
-export default TestComponent

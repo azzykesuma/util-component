@@ -1,6 +1,6 @@
 {
   "name": "util-component",
-  "version": "0.0.9",
+  "version": "0.0.12",
   "scripts": {
     "build": "webpack",
     "build:dev": "webpack --mode=development",
@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0"
   },
   "files": [
-    "dist"
+    "src/**/*"
   ],
   "devDependencies": {
     "@babel/core": "^7.23.7",
@@ -49,7 +49,7 @@
     "webpack-cli": "^5.1.4"
   },
   "description": "My webpack project",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "module": "dist/index.es.js",
   "repository": {
     "type": "git",
