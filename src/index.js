@@ -1,1 +1,1 @@
-export {TestComponent} from "./TestComponent"
+export {TestComponent} from "./TestComponent.jsx"
